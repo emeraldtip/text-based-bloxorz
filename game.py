@@ -27,8 +27,8 @@ def mapParser(fileName):
 
 def printMap(kaart,plokk):
     k = list(deepcopy(kaart))
-    k[plokk[0][0]][plokk[0][1]] = "b"
-    k[plokk[1][0]][plokk[1][1]] = "b"
+    k[plokk[0][0]][plokk[0][1]] = "■"
+    k[plokk[1][0]][plokk[1][1]] = "■"
     for i in k: print("".join(i))
 
 #0 - up, 1 - down, 2 - left, 3 - right
